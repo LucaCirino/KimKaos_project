@@ -48,3 +48,9 @@
     margin-top: 1rem;
     margin-bottom: 2.2rem;
 }
+
+@media (max-width: 425px) {
+    .figure {
+        margin-top: 2.5rem;
+    }
+}

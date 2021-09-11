@@ -53,7 +53,6 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    margin-left: 40px;
     a {
         text-decoration: none;
         color: $colorFooterText !important;
@@ -61,6 +60,12 @@ footer {
         &:hover {
             transform: scale(1.03);
         }
+    }
+}
+
+@media (min-width: 1440px) {
+    .footer__text--sm {
+        margin-left: 2rem;
     }
 }
 

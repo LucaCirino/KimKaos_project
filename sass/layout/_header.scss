@@ -19,7 +19,17 @@ nav {
         margin-right: 15px;
         margin-left: 15px;
     }
+    .btn {
+        color: $colorText;
+        border-color: $colorText;
+        &:hover {
+            color: white;
+            border-color: white;
+            background-color: $colorText;
+        }
+    }
 }
+
 
 
 @media (max-width: 992px) {
