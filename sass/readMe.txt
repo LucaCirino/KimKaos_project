@@ -38,5 +38,7 @@ SEO
         -       se completo el texto alternativo de las imagenes
         -       se agrego el atributo tabindex en el formulario de contacto
         -       se agrego accesskey a los botones de instagram y whatsapp
+14- se cambiaron los h2 de las paginas por h1
+15- se agregaron las metaetiquetas OpenGrap al index. Faltan las de las paginas
 
 falta pagina 404 y sitemap XML

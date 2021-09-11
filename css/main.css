@@ -257,12 +257,6 @@ label {
   margin: auto;
 }
 
-h2 {
-  color: #df15f1;
-  font-family: Nunito Sans, Geneva;
-  font-weight: 700;
-}
-
 .main__form {
   margin-bottom: 1rem;
 }
@@ -341,6 +335,13 @@ iframe {
 
 .gallery__title {
   margin-bottom: 2.2rem;
+  color: #df15f1;
+}
+
+.gallery__title--sub {
+  color: #df15f1;
+  font-family: Nunito Sans, Geneva;
+  margin-bottom: 1.5rem;
 }
 
 .gallery__img {
