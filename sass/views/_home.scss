@@ -1,0 +1,50 @@
+.main__intro h1 {
+    color: $colorTitle;
+    font-family: $fontTitle;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.main__intro {
+    color: $colorText;
+    font-size: 1.5rem;
+    font-family: $fontText;
+    margin-bottom: 4rem;
+}
+
+.main_quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    background-color: rgba(231, 90, 194, 0.219);
+    padding: 8px;
+    border-radius: 50px;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.main_quote p {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: $fontTextQuote;
+}
+
+#main_figure--cap {
+    font-size: 25px;
+    margin-top: 1.3rem;
+    color: $colorText;
+    font-family: $fontText;
+    a {
+        text-decoration: none;
+        color: $colorText;
+    }
+}
+
+
+/* carousel */
+#main__carousel {
+    width: 80rem;    
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
+}

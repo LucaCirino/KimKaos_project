@@ -1,0 +1,93 @@
+/* footer */
+footer {
+    background-color: rgb(248, 247, 247);
+    margin-top: 60px;
+    border-top: $border;
+    border-bottom: $border;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* footer__pagos */
+#footer__img__pagos {
+    width: 13rem;
+    margin-top: 5px;
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+/* footer__redes */
+.footer__img--mid {
+    width: 1.9rem;
+    height: auto;
+    margin-left: 3px;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.footer__img--sm {
+    width: 1.4rem;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 180px;
+}
+.footer__text--lg {
+    color: $colorFooterText;
+    font-family: $fontText;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.footer__anchor {
+    text-decoration: none;
+    color: $colorFooterText;
+    font-family: $fontText;
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+.footer__text--sm {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 40px;
+    a {
+        text-decoration: none;
+        color: $colorFooterText !important;
+        font-family: $fontText;
+        &:hover {
+            transform: scale(1.03);
+        }
+    }
+}
+
+/* footer__copy */
+#copy {
+    color: $colorFooterText;
+    font-family: $fontText;
+    margin-top: 5px;
+}
+
+/* whatsapp_btn */
+.btn--fixed {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
+    .btn__img--fixed {
+        max-width: 50px;
+        margin-top: 5px;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .btn__img--fixed {
+        max-width: 300px;
+    }
+}

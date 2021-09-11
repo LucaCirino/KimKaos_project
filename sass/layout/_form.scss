@@ -1,0 +1,40 @@
+label {
+    color: $colorText;
+    max-width: 600px;
+    margin: auto;
+    font-family: $fontText;
+    font-size: 20px;
+}
+
+
+
+.form-control {
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    color: $colorText;
+    font-family: $fontText;
+    font-weight: 700;
+}
+
+.main__form {
+    margin-bottom: 1rem;
+}
+
+input[type="radio"] {
+    position: absolute;
+    
+}
+
+#main__iframe {
+    margin-right: 1.2rem;
+    margin-top: 4.5rem;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
