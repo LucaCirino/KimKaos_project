@@ -71,8 +71,4 @@ Se utiliza el patron 7+1
   
   se agrego accesskey a los botones de instagram y whatsapp
 
-- 14- se cambiaron los h2 de las paginas por h1
-
-- 15- se agregaron las metaetiquetas OpenGraph al index.
-
-- Falta pagina 404, sitemap XML, OpenGraph en pages
+falta pagina 404 y sitemap XML
