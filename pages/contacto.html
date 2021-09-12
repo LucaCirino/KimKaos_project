@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="espejos de diseño, decoracion, hogar, bazar">
     <meta name="description" content="Tienda de espejos con onda, formas irregulares y artisticos, cuadros, relojes, objetos de decoracion y arte">
+    <!-- OpenGraph -->
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:site_name" content=""/>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +27,7 @@
         <header>
             <!-- header__img -->
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <a href="../index.html"><img class="img-fluid" id="header__img" src="../img/logos/Logo-negro-sin-fondo.png" alt="Kim kaos espejos y deco"></a>
                 </div>
             </div>
@@ -45,6 +52,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Contacto</a>
                             </div>
                             </div>
+                            <!-- search bar -->
                             <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -71,7 +79,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <!-- form -->
-                    <div class="main__form">
+                    <div class="main__form text-center">
                         <h1 class="gallery__title">Contacto</h1>
                         <form>
                             <div class="mb-3">
@@ -79,16 +87,16 @@
                                 <input type="text" id="name" class="form-control" placeholder="Ingrese su nombre" required tabindex="1">
                             </div>
                             <div class="mb-3">
-                                <label for="email">Direccion de e-mail</label>
+                                <label for="email">Dirección de e-mail</label>
                                 <input type="email" id="email" class="form-control" placeholder="Ingrese su e-mail" required tabindex="2">
                             </div>
                             <div class="mb-3">
-                                <label for="number">Numero de telefono (opcional)</label>
-                                <input type="number" id="number" class="form-control" placeholder="Ingrese su numero de telefono" tabindex="3">
+                                <label for="number">Número de teléfono (opcional)</label>
+                                <input type="number" id="number" class="form-control" placeholder="Ingrese su número de teléfono" tabindex="3">
                             </div>
 
                             <!-- radio -->
-                            <label>¿Envio dentro de la ciudad de cordoba?</label>
+                            <label>¿Envío dentro de la ciudad de Córdoba?</label>
                             <div class="form-check">                            
                                 <input class="form-check-input" type="radio" name="envio" id="si" value="radio" checked tabindex="4">
                                 <label class="form-check-label" for="si">Si</label>
@@ -101,18 +109,18 @@
                             <!-- textarea -->
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-                                <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" placeholder="¿Algun comentario?" tabindex="6"></textarea>
+                                <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" placeholder="¿Algún comentario?" tabindex="6"></textarea>
                             </div>
 
                             <!-- submit button -->
-                            <button type="submit" value="submit" class="btn btn-primary" tabindex="7">Submit</button>
+                            <button type="submit" value="submit" class="btn btn-primary" id="btn" tabindex="7">Enviar</button>
                         </form>                        
                     </div>
                     <!-- form end -->
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <!-- iframe -->                    
-                    <div class="map" id="main__iframe">
+                    <div class="map main__iframe">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2246768432055!2d-64.18410167074477!3d-31.41691675434302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2834c31099b%3A0x56b557ec4b686b12!2sCenter%2C%20X5022%20C%C3%B3rdoba%2C%20Cordoba!5e0!3m2!1sen!2sar!4v1628204837228!5m2!1sen!2sar" allowfullscreen="" loading="lazy"></iframe>    <!-- google maps con ubicacion generica -->
                     </div>                        
                 </div>
@@ -120,9 +128,9 @@
         </main>
 
         <footer>                
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-4 col-sm-12">
-                    <p class="footer__text--lg">MEDIOS DE PAGO</p>
+                    <h4 class="footer__txt--lg">MEDIOS DE PAGO</h4>
                     <a href="https://www.mercadopago.com.ar/home" target="_blank"><img class="img-fluid" src="../img/logos/pagos/mercadolibreSinFondo.png" id="footer__img__pagos" alt="Mercadopago"></a>
                 </div>
                 <div class="col-md-4 col-sm-12" id="copy">
@@ -130,18 +138,18 @@
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div>
-                        <p class="footer__text--lg">NUESTRAS REDES SOCIALES</p>
+                        <h4 class="footer__txt--lg">NUESTRAS REDES SOCIALES</h4>
                             <div>
                                 <a href="https://www.instagram.com/kim.kaos/" target="_blank"><img src="../img/logos/redes/instagram.png" alt="instagram" class="footer__img--mid"></a>
                                 <a href="https://www.facebook.com/KimKaosTienda" target="_blank"><img src="../img/logos/redes/facebook1.png" alt="facebook" class="footer__img--mid"></a>
                                 <a href="https://www.tiktok.com/@kim.kaos" target="_blank"><img src="../img/logos/redes/tik-tok.png" alt="tik-tok" class="footer__img--mid"></a>
                                 <a href="https://api.whatsapp.com/send/?phone=5493584398191&text&app_absent=0" target="_blank"><img src="../img/logos/redes/whatsapp1.png" alt="whatsapp" class="footer__img--mid"></a>
                             </div>
-                        <p class="footer__text--lg">CONTACTO</p>
-                            <div class="footer__text--sm">
-                                <a href="#"><img src="../img/logos/redes/envelope.png" alt="enviar email" class="footer__img--sm">kimkimkaos@gmail.com</a>
-                                <a href="https://api.whatsapp.com/send/?phone=5493584398191&text&app_absent=0"><img src="../img/logos/redes/phone.png" alt="contacto por whatsapp" class="footer__img--sm">+5493584398191</a>
-                                <a href="#"><img src="../img/logos/redes/placeholder.png" alt="Cordoba capital" class="footer__img--sm">Córdoba Capital</a>
+                        <h4 class="footer__txt--lg">CONTACTO</h4>
+                            <div class="footer__txt--sm">
+                                <a class="d-flex footer__txt--sm" href="#"><img src="../img/logos/redes/envelope.png" alt="enviar email" class="footer__img--sm">kimkimkaos@gmail.com</a>
+                                <a class="d-flex footer__txt--sm" href="https://api.whatsapp.com/send/?phone=5493584398191&text&app_absent=0"><img src="../img/logos/redes/phone.png" alt="contacto por whatsapp" class="footer__img--sm">+5493584398191</a>
+                                <a class="d-flex footer__txt--sm" href="#"><img src="../img/logos/redes/placeholder.png" alt="Cordoba capital" class="footer__img--sm">Córdoba Capital</a>
                             </div> 
                     </div>
                 </div>
@@ -158,7 +166,7 @@
         </footer>
     </div>
 
-    <!-- scripts de bootstrap -->
+    <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>

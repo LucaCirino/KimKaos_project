@@ -1,15 +1,14 @@
-.main__intro h1 {
-    color: $colorTitle;
-    font-family: $fontTitle;
-    font-size: 50px;
-    margin-bottom: 15px;
-}
-
 .main__intro {
     color: $colorText;
     font-size: 1.5rem;
     font-family: $fontText;
     margin-bottom: 4rem;
+    h1 {
+        color: $colorTitle;
+        font-family: $fontTitle;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
 }
 
 .main_quote {
@@ -21,12 +20,11 @@
     max-width: 500px;
     height: auto;
     margin: auto;
-}
-
-.main_quote p {
-    font-size: 3rem;
-    color: rgb(0, 0, 0);
-    font-family: $fontTextQuote;
+    p {
+        font-size: 3rem;
+        color: rgb(0, 0, 0);
+        font-family: $fontTextQuote;
+    }
 }
 
 #main_figure--cap {
