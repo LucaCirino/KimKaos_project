@@ -1,27 +1,28 @@
 /* KimKaos img */
 #header__img {
-    max-width: 180px;
-    margin-top: -15px;
-    margin-bottom: -30px;
+    max-width: 18rem;
+    margin-top: -1.5rem;
+    margin-bottom: -3rem;
 }
 
 /* navBar */
 nav {
     background-color: $colorNavFooter;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
     font-family: $fontText;
     border-top: $border;
     border-bottom: $border;
     a {
         color: $colorText !important;
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
     }
     .btn {
         color: $colorText;
         border-color: $colorText;
+        font-size: 1.6rem;
         &:hover {
             color: $colorBtn;
             border-color: $colorBtn;
@@ -29,11 +30,14 @@ nav {
         }
     }
 }
+#searchBar {
+    font-size: 1.6rem;
+}
 
 @media (max-width: 992px) {
     .d-flex {
         margin: auto;
-        margin-top: 5px;
+        margin-top: 0.5rem;
     }
 }
 

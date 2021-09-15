@@ -1,5 +1,5 @@
 .gallery__title {
-    margin-bottom: 2.2rem;
+    margin-bottom: 3.52rem;
     color: $colorText;
     text-align: center;
 }
@@ -7,9 +7,10 @@
 .gallery__title--sub {
     color: $colorText;
     font-family: $fontText;
-    margin-bottom: 2.2rem;
+    margin-bottom: 3.52rem;
     text-align: center;
-    margin-top: -30px;
+    margin-top: -3rem;
+    font-size: 2.2rem;
 }
 
 
@@ -21,26 +22,26 @@
     }
 }
 .gallery {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     .gallery__anchor {
         text-decoration: none;
     }
     .gallery__txt--lg {
         color: $colorText;
-        margin-top: 7px;
-        margin-bottom: 2px;
-        font-size: 17px;
+        margin-top: 0.7rem;
+        margin-bottom: 0.2rem;
+        font-size: 1.7rem;
         font-weight: 600;
         line-height: 1;
     }
     .gallery__txt--md {
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 500;
         line-height: 1;
-        margin-bottom: 1px;
+        margin-bottom: 0.1rem;
     }
     .gallery__txt--sm {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 }

@@ -1,45 +1,60 @@
 /* footer */
 footer {
     background-color: $colorNavFooter;
-    margin-top: 60px;
+    margin-top: 6rem;
     border-top: $border;
     border-bottom: $border;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* footer__pagos */
 #footer__img__pagos {
-    width: 13rem;
-    margin-top: 5px;
+    width: 20.8rem;
+    margin-top: 0.8rem;
     &:hover {
         transform: scale(1.02);
     }
 }
 
 /* footer__redes */
-.footer__img--mid {
-    width: 1.9rem;
-    height: auto;
-    margin-left: 3px;
+.footer__img--md {
+    color: black;
+    margin-left: 0.3rem;
     &:hover {
         transform: scale(1.1);
     }
 }
-.footer__img--sm {
-    width: 1.4rem;
-    height: auto;
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-left: 180px;
+
+.footer__txt--sm {
+    text-decoration: none;
+    color: $colorFooterText;
+    font-family: $fontText;
+    font-size: 1.5rem;
+    &:hover {
+        transform: scale(1.05);
+        color: $colorFooterText;
+    }
+    .footer__i--sm{
+        margin: auto;
+        margin-top: 0.7rem;
+        #p {
+            font-family: $fontText;
+        }
+    }
 }
+
 .footer__txt--lg {
     color: $colorFooterText;
     font-family: $fontText;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 0.5rem;
+}
+
+#contacto {
+    margin-top: 0.8rem;
+    margin-bottom: -0.5rem;
 }
 
 .footer__container--center {
@@ -55,57 +70,25 @@ footer {
     }
 }
 
-.footer__txt--sm {
-    text-decoration: none;
-    color: $colorFooterText !important;
-    font-family: $fontText;
-    &:hover {
-        transform: scale(1.03);
-      }
-}
-
-@media (max-width: 426px) {
-    .footer__txt--sm {
-        margin-left: -100px;
-    }
-}
-@media (max-width: 768px) {
-    .footer__txt--sm {
-        margin-left: -150px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .footer__txt--sm {
-        margin-left: -180px;
-    }
-}
-
-
 /* footer__copy */
 #copy {
     color: $colorFooterText;
     font-family: $fontText;
-    margin-top: 5px;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
 }
 
 /* whatsapp_btn */
 .btn--fixed {
     position: fixed;
-    right: 15px;
-    bottom: 15px;
+    right: 1.5rem;
+    bottom: 1.5rem;
     z-index: 1;
     .btn__img--fixed {
-        max-width: 50px;
-        margin-top: 5px;
+        max-width: 5rem;
+        margin-top: 0.5rem;
         &:hover {
             transform: scale(1.1);
         }
-    }
-}
-
-@media (max-width: 425px) {
-    .btn__img--fixed {
-        max-width: 300px;
     }
 }
