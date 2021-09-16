@@ -15,23 +15,28 @@ nav {
     border-top: $border;
     border-bottom: $border;
     a {
-        color: $colorText !important;
+        color: $colorTextNavBar !important;
         margin-right: 1.5rem;
         margin-left: 1.5rem;
     }
     .btn {
-        color: $colorText;
-        border-color: $colorText;
+        color: $colorTextNavBar;
+        border-color: $colorTextNavBar;
         font-size: 1.6rem;
         &:hover {
             color: $colorBtn;
-            border-color: $colorBtn;
-            background-color: $colorText;
+            border-color: $colorTextNavBar;
+            background-color: $colorTextNavBar;
         }
     }
 }
 #searchBar {
     font-size: 1.6rem;
+}
+#menu {
+    color: $colorText;
+    font-size: 1.6rem;
+    border-color: $colorBtn;
 }
 
 @media (max-width: 992px) {
@@ -41,11 +46,11 @@ nav {
     }
 }
 
-
 /* breadcrumb */
 .breadcrumb__nav {
     border: none;
     background-color: white;
+    font-size: 2rem;
     a {
      text-decoration: none;
      color: $colorText;

@@ -13,8 +13,7 @@
 
 .main_quote {
     font-size: 2.4rem;
-    font-style: italic;
-    background-color: rgba(231, 90, 194, 0.219);
+    background-color: $backGroundColor;
     padding: 0.5rem;
     border-radius: 5rem;
     max-width: 50rem;
@@ -22,7 +21,7 @@
     margin: auto;
     p {
         font-size: 4.8rem;
-        color: rgb(0, 0, 0);
+        color: white;
         font-family: $fontTextQuote;
     }
 }

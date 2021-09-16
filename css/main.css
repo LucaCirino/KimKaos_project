@@ -1,5 +1,7 @@
 /* variables */
 /* mixins */
+/* rgb(231,193,206); */
+/* (248, 247, 247) */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -72,7 +74,7 @@ html {
 
 /* navBar */
 nav {
-  background-color: #f8f7f7;
+  background-color: #f6f6f6;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 2.4rem;
@@ -82,25 +84,31 @@ nav {
 }
 
 nav a {
-  color: #df15f1 !important;
+  color: #a510b3 !important;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
 }
 
 nav .btn {
-  color: #df15f1;
-  border-color: #df15f1;
+  color: #a510b3;
+  border-color: #a510b3;
   font-size: 1.6rem;
 }
 
 nav .btn:hover {
   color: white;
-  border-color: white;
-  background-color: #df15f1;
+  border-color: #a510b3;
+  background-color: #a510b3;
 }
 
 #searchBar {
   font-size: 1.6rem;
+}
+
+#menu {
+  color: black;
+  font-size: 1.6rem;
+  border-color: white;
 }
 
 @media (max-width: 992px) {
@@ -114,16 +122,17 @@ nav .btn:hover {
 .breadcrumb__nav {
   border: none;
   background-color: white;
+  font-size: 2rem;
 }
 
 .breadcrumb__nav a {
   text-decoration: none;
-  color: #df15f1;
+  color: black;
 }
 
 /* footer */
 footer {
-  background-color: #f8f7f7;
+  background-color: #f6f6f6;
   margin-top: 6rem;
   border-top: 1.5px solid rgba(71, 71, 71, 0.781);
   border-bottom: 1.5px solid rgba(71, 71, 71, 0.781);
@@ -238,7 +247,7 @@ footer {
 }
 
 .main__form label {
-  color: #df15f1;
+  color: black;
   max-width: 60rem;
   margin: auto;
   font-family: Nunito Sans, Geneva;
@@ -255,17 +264,17 @@ footer {
   font-size: 1.6rem;
 }
 
-.main__form #btn {
-  background-color: rgba(255, 255, 255, 0);
-  color: #df15f1;
-  border-color: #df15f1;
+.main__form .btn {
+  background-color: white;
+  color: #a510b3;
+  border-color: #a510b3;
   font-size: 1.6rem;
 }
 
-.main__form #btn:hover {
+.main__form .btn:hover {
   color: white;
-  border-color: white;
-  background-color: #df15f1;
+  border-color: #a510b3;
+  background-color: #a510b3;
 }
 
 .main__iframe {
@@ -280,14 +289,14 @@ footer {
 }
 
 .main__intro {
-  color: #df15f1;
+  color: black;
   font-size: 2.4rem;
   font-family: Nunito Sans, Geneva;
   margin-bottom: 6.4rem;
 }
 
 .main__intro h1 {
-  color: #8404fc;
+  color: black;
   font-family: Lobster, Geneva;
   font-size: 5rem;
   margin-bottom: 1.5rem;
@@ -295,8 +304,7 @@ footer {
 
 .main_quote {
   font-size: 2.4rem;
-  font-style: italic;
-  background-color: rgba(231, 90, 194, 0.219);
+  background-color: #c4a6e4;
   padding: 0.5rem;
   border-radius: 5rem;
   max-width: 50rem;
@@ -306,19 +314,19 @@ footer {
 
 .main_quote p {
   font-size: 4.8rem;
-  color: black;
+  color: white;
   font-family: Dancing Script, Geneva;
 }
 
 #main_figure--cap {
   font-size: 2.5rem;
   margin-top: 2.08rem;
-  color: #df15f1;
+  color: black;
   font-family: Nunito Sans, Geneva;
 }
 
 #main_figure--cap a {
-  color: #df15f1;
+  color: black;
 }
 
 /* carousel */
@@ -337,12 +345,12 @@ footer {
 
 .gallery__title {
   margin-bottom: 3.52rem;
-  color: #df15f1;
+  color: black;
   text-align: center;
 }
 
 .gallery__title--sub {
-  color: #df15f1;
+  color: black;
   font-family: Nunito Sans, Geneva;
   margin-bottom: 3.52rem;
   text-align: center;
@@ -376,7 +384,7 @@ footer {
 }
 
 .gallery .gallery__txt--lg {
-  color: #df15f1;
+  color: black;
   margin-top: 0.7rem;
   margin-bottom: 0.2rem;
   font-size: 1.7rem;
@@ -399,12 +407,15 @@ footer {
   text-align: start;
   width: 100rem;
   margin: auto;
+  padding: 2.5rem;
   font-family: Nunito Sans, Geneva;
+  background-color: #c4a6e4;
+  border-radius: 5%;
 }
 
 .faq__container h3 {
   margin-bottom: 3.2rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .faq__container .faq__txt--md {
@@ -414,11 +425,28 @@ footer {
 
 .faq__container p {
   font-size: 1.76rem;
+  font-weight: 600;
 }
 
 @media (max-width: 1024px) {
   .faq__container {
     width: 100%;
+    border-radius: 3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq__container {
+    width: 100%;
+    border-radius: 2%;
+  }
+}
+
+@media (max-width: 425px) {
+  .faq__container {
+    width: 100%;
+    border-radius: 1px;
+    padding: 1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

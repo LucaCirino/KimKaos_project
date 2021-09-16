@@ -18,15 +18,15 @@
     .form-check-input {
         font-size: 1.6rem;
     }
-    #btn {
-        background-color: rgba(255, 255, 255, 0);
-        color: $colorText;
-        border-color: $colorText;
+    .btn {
+        background-color: white;
+        color: $colorTextNavBar;
+        border-color: $colorTextNavBar;
         font-size: 1.6rem;
         &:hover {
             color: $colorBtn;
-            border-color: $colorBtn;
-            background-color: $colorText;
+            border-color: $colorTextNavBar;
+            background-color: $colorTextNavBar;
         }
     }
 }
