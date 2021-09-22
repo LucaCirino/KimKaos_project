@@ -204,6 +204,10 @@ footer {
   margin-top: 0.5rem;
   font-size: 1.6rem;
 }
+#copy a {
+  text-decoration: none;
+  color: #a510b3;
+}
 
 /* whatsapp_btn */
 .btn--fixed {

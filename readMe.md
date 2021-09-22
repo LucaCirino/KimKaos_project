@@ -4,8 +4,7 @@ Proyecto para el curso de desarrollo web de Coder House comision 22220
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ##
-Sitio web para la tienda Kim Kaos, la tienda vende principalmente espejos de diseño y tambien otros articulos de decoracion como
-cuadros, relojes y piezas de resina.
+Se realizo el maquetado del sitio web para la tienda Kim Kaos, la tienda vende principalmente espejos de diseño y tambien otros articulos de decoracion como cuadros, relojes y piezas de resina.
 Se mantiene una estetica minimalista y sobria en donde resaltan los productos y el instagram de la tienda.
 
 -----------------------------------------------------------------------------------------------------------------------------------

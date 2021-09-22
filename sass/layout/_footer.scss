@@ -76,6 +76,10 @@ footer {
     font-family: $fontText;
     margin-top: 0.5rem;
     font-size: 1.6rem;
+    a {
+        text-decoration: none;
+        color: $colorFooterText;
+    }
 }
 
 /* whatsapp_btn */
