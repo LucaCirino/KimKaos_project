@@ -65,7 +65,9 @@ Se utiliza el patron 7+1
 
 - 13- creado sitemap.xml
 
-- 14- accesibilidad:
+- 14- sitio verificado con google search console
+
+- 15- accesibilidad:
 
   se completo el texto alternativo de las imagenes
   
@@ -75,3 +77,37 @@ Se utiliza el patron 7+1
 
 
 falta pagina 404
+
+### Tecnologias y Servicios utilizados
+
+- HTML / CSS
+
+- SASS
+
+- Bootstrap
+
+- Herramientas de google
+
+  Google Fonts
+
+  Google Analytics
+
+  Google Search Console
+
+- BEM
+
+- Git / GitHub
+
+- Font Awesome / Flaticon
+
+- Favicon
+
+- OpenGraph
+
+- CSS Tool Reset
+
+- FileZilla
+
+- Visual Studio Code
+
+- W3C Validator
