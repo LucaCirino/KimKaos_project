@@ -33,6 +33,9 @@
     font-family: $fontText;
     a {
         color: $colorText;
+        &:hover {
+            color: $backGroundColor;
+        }
     }
 }
 

@@ -79,6 +79,9 @@ footer {
     a {
         text-decoration: none;
         color: $colorFooterText;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 

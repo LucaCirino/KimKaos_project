@@ -208,6 +208,9 @@ footer {
   text-decoration: none;
   color: #a510b3;
 }
+#copy a:hover {
+  text-decoration: underline;
+}
 
 /* whatsapp_btn */
 .btn--fixed {
@@ -303,6 +306,9 @@ footer {
 }
 #main_figure--cap a {
   color: black;
+}
+#main_figure--cap a:hover {
+  color: #c4a6e4;
 }
 
 /* carousel */
