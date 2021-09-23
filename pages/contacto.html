@@ -88,18 +88,18 @@
                     <!-- form -->
                     <div class="main__form text-center">
                         <h1 class="gallery__title">Contacto</h1>
-                        <form>
+                        <form action="enviar.php" method="POST">
                             <div class="mb-3">
                                 <label for="name">Nombre completo</label>
-                                <input type="text" id="name" class="form-control" placeholder="Ingrese su nombre" required tabindex="1">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Ingrese su nombre" required tabindex="1">
                             </div>
                             <div class="mb-3">
                                 <label for="email">Dirección de e-mail</label>
-                                <input type="email" id="email" class="form-control" placeholder="Ingrese su e-mail" required tabindex="2">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Ingrese su e-mail" required tabindex="2">
                             </div>
                             <div class="mb-3">
                                 <label for="number">Número de teléfono (opcional)</label>
-                                <input type="number" id="number" class="form-control" placeholder="Ingrese su número de teléfono" tabindex="3">
+                                <input type="number" name="number" id="number" class="form-control" placeholder="Ingrese su número de teléfono" tabindex="3">
                             </div>
 
                             <!-- radio -->
@@ -116,7 +116,7 @@
                             <!-- textarea -->
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-                                <textarea id="exampleFormControlTextarea1" class="form-control" rows="3" placeholder="¿Algún comentario?" tabindex="6"></textarea>
+                                <textarea id="exampleFormControlTextarea1" name="message" class="form-control" rows="3" placeholder="¿Algún comentario?" tabindex="6"></textarea>
                             </div>
 
                             <!-- submit button -->

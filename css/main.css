@@ -1,7 +1,4 @@
 /* variables */
-/* mixins */
-/* rgb(231,193,206); */
-/* (248, 247, 247) */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -229,6 +226,11 @@ footer {
 
 .main__form {
   margin-bottom: 1.6rem;
+  background-color: #c4a6e4;
+  border-radius: 2%;
+  max-width: 70rem;
+  padding: 1rem;
+  margin: auto;
 }
 .main__form input[type=radio] {
   position: absolute;
@@ -261,7 +263,7 @@ footer {
 }
 
 .main__iframe {
-  margin-right: 1.92rem;
+  margin: auto;
   margin-top: 7.2rem;
 }
 .main__iframe iframe {

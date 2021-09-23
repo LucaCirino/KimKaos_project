@@ -1,5 +1,10 @@
 .main__form {
     margin-bottom: 1.6rem;
+    background-color: $backGroundColor;
+    border-radius: 2%;
+    max-width: 70rem;
+    padding: 1rem;
+    margin: auto;
     input[type="radio"] {
         position: absolute;
     }
@@ -19,7 +24,7 @@
         font-size: 1.6rem;
     }
     .btn {
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         color: $colorTextNavBar;
         border-color: $colorTextNavBar;
         font-size: 1.6rem;
@@ -32,7 +37,7 @@
 }
 
 .main__iframe {
-    margin-right: 1.92rem;
+    margin: auto;
     margin-top: 7.2rem;
     iframe {
         width: 100%;
