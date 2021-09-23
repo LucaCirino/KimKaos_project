@@ -4,8 +4,8 @@ Proyecto para el curso de desarrollo web de Coder House comision 22220
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ##
-Sitio web para la tienda Kim Kaos, la tienda vende principalmente espejos de diseño y tambien otros articulos de decoracion como
-cuadros, relojes y piezas de resina.
+Se realizo el maquetado del sitio web para la tienda Kim Kaos, la tienda vende principalmente espejos de diseño y tambien otros articulos de decoracion como cuadros, relojes y piezas de resina.
+Se mantiene una estetica minimalista y sobria en donde resaltan los productos y el instagram de la tienda.
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -34,7 +34,9 @@ Se utiliza el patron 7+1
 
 - views/      
   - home
-  - productos
+  - gallery
+  - faq
+  - 404
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -63,7 +65,13 @@ Se utiliza el patron 7+1
 
 - 12- documento entero validado con w3c, se eliminarion varios id y class repetidos o innecesarios
 
-- 13- accesibilidad:
+- 13- creado sitemap.xml
+
+- 14- sitio verificado con google search console
+
+- 15- se creo la pagina de error 404
+
+- 16- accesibilidad:
 
   se completo el texto alternativo de las imagenes
   
@@ -71,4 +79,37 @@ Se utiliza el patron 7+1
   
   se agrego accesskey a los botones de instagram y whatsapp
 
-falta pagina 404 y sitemap XML
+
+### Tecnologias y Servicios utilizados
+
+- HTML / CSS / PHP
+
+- SASS
+
+- Bootstrap
+
+- Herramientas de google
+
+  Google Fonts
+
+  Google Analytics
+
+  Google Search Console
+
+- BEM
+
+- Git / GitHub
+
+- Font Awesome / Flaticon
+
+- Favicon
+
+- OpenGraph
+
+- CSS Tool Reset
+
+- FileZilla
+
+- Visual Studio Code
+
+- W3C Validator
