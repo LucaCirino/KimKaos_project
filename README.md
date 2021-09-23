@@ -27,7 +27,6 @@ Se utiliza el patron 7+1
 
 - utilities/  
   - variables
-  - mixins
 
 - vendors/    
   - no se utiliza
