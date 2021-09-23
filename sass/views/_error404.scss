@@ -1,0 +1,29 @@
+.container__404 {
+    font-family: $fontText;
+    margin-top: 10rem;
+    img {
+        max-width: 22rem;
+        margin-bottom: 5rem;
+    }
+    p {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+    h1 {
+        font-weight: 900;
+    }
+    #btn__404 {
+        font-size: 2.4rem;
+        border: 1px solid;
+        border-radius: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        color: $colorTextNavBar;
+        border-color: $colorTextNavBar;
+        &:hover {
+            color: $colorBtn;
+            border-color: $colorTextNavBar;
+            background-color: $colorTextNavBar;
+        }
+    }
+}

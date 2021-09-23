@@ -34,7 +34,9 @@ Se utiliza el patron 7+1
 
 - views/      
   - home
-  - productos
+  - gallery
+  - faq
+  - 404
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -67,7 +69,9 @@ Se utiliza el patron 7+1
 
 - 14- sitio verificado con google search console
 
-- 15- accesibilidad:
+- 15- se creo la pagina de error 404
+
+- 16- accesibilidad:
 
   se completo el texto alternativo de las imagenes
   
@@ -76,11 +80,9 @@ Se utiliza el patron 7+1
   se agrego accesskey a los botones de instagram y whatsapp
 
 
-falta pagina 404
-
 ### Tecnologias y Servicios utilizados
 
-- HTML / CSS
+- HTML / CSS / PHP
 
 - SASS
 
