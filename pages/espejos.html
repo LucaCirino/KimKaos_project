@@ -62,6 +62,7 @@
                             </div>
                             </div>
                             <form class="d-flex">
+                            <a class="navbar-brand" href="../pages/shop.html"><i class="fas fa-shopping-cart"><span class="shop" id="shop">0</span></i></a> <!-- CARRITO -->
                             <input class="form-control me-2" id="searchBar" type="search" placeholder="Buscar" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                             </form>                          
@@ -91,8 +92,8 @@
             <!-- gallery -->
             <section class="gallery min-vh-100 text-center">
                 <div class="contaienr-lg">
-                    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-                        <div class="col gallery__item">                                
+                    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" id="prod">
+                        <!-- <div class="col gallery__item">                                
                             <a class="gallery__anchor" href=""><img src="../img/espejos/ameba.jpeg" alt="Ameba" class="gallery__img rounded">
                             <h3 class="gallery__txt--lg">Espejo Ameba</h3></a>
                             <p class="gallery__txt--md">$3.500</p>
@@ -205,7 +206,7 @@
                             <h3 class="gallery__txt--lg">Rectangular con marco de hierro</h3></a>
                             <p class="gallery__txt--md">$5.400</p>
                             <p class="gallery__txt--sm">3 cuotas sin interés de $1.800</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>            
@@ -235,7 +236,7 @@
                                 <a class="d-flex footer__txt--sm" href="mailto:kimkimkaos@gmail.com"><i class="far fa-envelope footer__i--sm"><span> kimkimkaos@gmail.com</span></i></a>
                                 <a class="d-flex footer__txt--sm" href="https://wa.me/5493584398191" target="_blank"><i class="fab fa-whatsapp footer__i--sm"><span> +5493584398191</span></i></a>
                                 <a class="d-flex footer__txt--sm" href="https://goo.gl/maps/bnQWPeQMgJVBN2WE8" target="_blank"><i class="fas fa-map-marker-alt footer__i--sm"><span> Córdoba Capital</span></i></a>
-                            </div> 
+                            </div>
                     </div>
                 </div>
             </div>
@@ -250,6 +251,10 @@
             </div>
         </footer>
     </div>
+
+    <!-- scriptPropio -->
+    <script src="../scripts/jsEspejos.js"></script>
+    <script> mostrarProductos() </script>
 
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
